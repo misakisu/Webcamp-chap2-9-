@@ -1,0 +1,30 @@
+
+.box1 {
+  height: 200px;/*Boxにサイズを与えてあげる*/
+  background-image: url(img/box1.jpg);
+  background-size:　cover;
+  background-position: center;
+}
+.box2 {
+  height: 200px;
+  background-image: url(img/box2.jpg);
+  background-size:　cover;
+  background-position: 100%;
+}
+.box3 {
+  height: 200px;
+  background-image: url(img/box3.jpg);
+  background-size:　cover;
+  background-position: center;
+}
+
+.box4 {
+  margin:0 auto;
+  height: 200px;
+  background-image: url(img/box4.jpg);
+  object-fit: cover;
+  background-position: center;
+  width:300px;
+  /*真ん中をかっとした想定。この場合カットは真ん中の横300px？*/
+}
+

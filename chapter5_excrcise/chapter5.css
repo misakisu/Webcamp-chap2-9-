@@ -1,0 +1,127 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  color:#6c6b6b;
+}
+
+
+header {
+  width: 100%;
+  padding:20px 0px;
+  margin:0 auto;/*これは不要？*/
+}
+
+header h1{
+  text-align:center;
+}
+
+.list{
+  border-top:1px solid #848282;
+  border-bottom:1px solid #848282;
+  text-align:center;
+   margin: 0 auto;/*これをいれる理由不明ul要素はインライン要素では？*/
+}
+
+.list-item{
+  display:inline-block;
+  padding:15px 20px;
+}
+
+.main {
+  width: 800px;
+  padding:50px 0px;
+  margin:0 auto;/*margin:50px autoで上のpadding設定は消せるよ*/
+  font-size:0px;/*inlineblockを指定すると要素間に不要なすきまができる。それはインラインブロック要素がテキストの一部として認識されているから！。これを防ぐには親要素にfont-size：0；を記入すればよい。*/
+}
+
+.box1 {
+  width: 200px;
+  height: 200px;
+  background-color:#e6ffe9;
+  display:inline-block;
+}
+.box2 {
+  width: 200px;
+  height: 200px;
+  background-color:#cbffd3;
+  display:inline-block;
+}
+.box3 {
+  width: 200px;
+  height: 200px;
+  background-color:#aeffbd;
+  display:inline-block;
+}
+.box4 {
+  width: 200px;
+  height: 200px;
+  background-color:#93ffab;
+  display:inline-block;
+}
+
+.box5 {
+  width: 200px;
+  height: 200px;
+  background-color:#f3ffd8;
+  display:inline-block;
+}
+.box6 {
+  width: 200px;
+  height: 200px;
+  background-color:#edffbe;
+  display:inline-block;
+}
+.box7 {
+  width: 200px;
+  height: 200px;
+  background-color:#e9ffa5;
+  display:inline-block;
+}
+.box8 {
+  width: 200px;
+  height: 200px;
+  background-color:#e4ff8d;
+  display:inline-block;
+}
+
+.box9 {
+  width: 200px;
+  height: 200px;
+  background-color:#d9e5ff;
+  display:inline-block;
+}
+.box10 {
+  width: 200px;
+  height: 200px;
+  background-color:#bad3ff;
+  display:inline-block;
+}
+.box11 {
+  width: 200px;
+  height: 200px;
+  background-color:#a4c6ff;
+  display:inline-block;
+}
+.box12 {
+  width: 200px;
+  height: 200px;
+  background-color:#8eb8ff;
+  display:inline-block;
+}
+
+footer {
+width:100%;
+height:120px;
+background-color:gray;
+}
+
+footer p{
+  text-align:center;
+  color:white;
+  line-height: 120px;
+}
+
+/*「行の高さ」＝「親要素の高さ」にして中央揃え
+中央揃えしたいテキストに line-height: ◯◯px; のように行の高さを指定します。ここで指定した値と、親要素である「上下中央に配置したいボックスの高さ」を同じ値にします。
+文字の位置は、「行の高さの中央」になるので、上下中央揃えとなり、font-sizeから余った分が上下余白になります。*/
