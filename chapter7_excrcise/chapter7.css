@@ -20,7 +20,6 @@ header {
 }
 
 main {
-  /*width: 840px;をここにいれると中央寄せにならなくなる。。なぜ？*/
   padding:50px 0 50px 0;/*margin: 50px auto;をいれればblogのmargin:0 auto;は不要*/
 }
 .section{

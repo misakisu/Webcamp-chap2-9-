@@ -19,12 +19,9 @@
 }
 
 .box4 {
-  margin:0 auto;
   height: 200px;
   background-image: url(img/box4.jpg);
   object-fit: cover;
   background-position: center;
-  width:300px;
-  /*真ん中をかっとした想定。この場合カットは真ん中の横300px？*/
 }
 

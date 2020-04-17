@@ -9,7 +9,7 @@
 header {
   width: 100%;
   padding:20px 0px;
-  margin:0 auto;/*これは不要？*/
+  margin:0 auto;
 }
 
 header h1{
@@ -20,7 +20,6 @@ header h1{
   border-top:1px solid #848282;
   border-bottom:1px solid #848282;
   text-align:center;
-   margin: 0 auto;/*これをいれる理由不明ul要素はインライン要素では？*/
 }
 
 .list-item{
@@ -31,8 +30,10 @@ header h1{
 .main {
   width: 800px;
   padding:50px 0px;
-  margin:0 auto;/*margin:50px autoで上のpadding設定は消せるよ*/
-  font-size:0px;/*inlineblockを指定すると要素間に不要なすきまができる。それはインラインブロック要素がテキストの一部として認識されているから！。これを防ぐには親要素にfont-size：0；を記入すればよい。*/
+  margin:0 auto;/*margin:50px autoで上のpadding設定は消せる*/
+  font-size:0px;/*inlineblockを指定すると要素間に不要なすきまができる。
+  それはインラインブロック要素がテキストの一部として認識されているから！。
+  これを防ぐには親要素にfont-size：0；を記入すればよい。*/
 }
 
 .box1 {
